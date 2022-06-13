@@ -93,10 +93,11 @@ func (q *Queries) ListAccounts(ctx context.Context, arg ListAccountsParams) ([]A
 	return items, err
 }
 
-const updateAccount = `-- name: UpdateAccount :exec
+const updateAccount = `-- name: UpdateAccount :one
 UPDATE accounts
 SET balance = $2
-WHERE id = $1;
+WHERE id = $1
+RETURNING id, owner, balance, currency, created_at;
 `
 
 type UpdateAccountParams struct {
