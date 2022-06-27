@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 21 14:24:50 2022
+# Make data base, printed on Mon Jun 27 15:21:53 2022
 
 # Variables
 
@@ -25,9 +25,9 @@ USERPROFILE = C:\Users\daoxu
 # environment
 LOCALAPPDATA = C:\Users\daoxu\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-433a7ca6-3b7c-4a4f-90da-62dd0401ecc1-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-de2e3d2f-bc52-484a-ab39-1b679bcbf45b-sock
 # environment
-VSCODE_CWD = C:\Users\daoxu\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = D:\bank
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -43,7 +43,7 @@ GOPATH = C:\Users\daoxu\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_25404_AOARRQUECZIOTWUD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20640_WIQNALIEHREEPQRJ
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -101,7 +101,7 @@ PT8HOME = C:\Program Files\Cisco Packet Tracer 8.0
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 25404
+VSCODE_PID = 20640
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -196,8 +196,7 @@ APPDATA = C:\Users\daoxu\AppData\Roaming
 HOMEDRIVE = C:
 # environment
 VS160PROCOMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\Tools\
-# enviro 
-nment
+# environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
 M2_HOME = C:\Program Files\apache-maven-3.8.4
@@ -225,6 +224,10 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -236,7 +239,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=10/138=7%
+# Load=113/1024=11%, Rehash=0, Collisions=10/140=7%
 
 # Pattern-specific Variable Values
 
@@ -244,15 +247,21 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (key d:/bank, mtime 1655795404): 15 files, no impossibilities.
+# . (key d:/bank, mtime 1656095409): 16 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
+
+ock:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
 
 migratedown:
 #  Phony target (prerequisite of .PHONY).
@@ -265,9 +274,16 @@ migratedown:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-17 14:35:43
+#  Last modified 2022-06-25 01:30:44
 #  File has been updated.
 #  Successfully updated.
+
+mock:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	mockgen -destination db/mock/store.go postgres/db/sql Store
 
 dropdb:
 #  Phony target (prerequisite of .PHONY).
@@ -276,6 +292,14 @@ dropdb:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 6):
 	docker exec -it postgres14 psql -U root bank
+
+server:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	go run main.go
 
 migrateup:
 #  Phony target (prerequisite of .PHONY).
@@ -322,25 +346,25 @@ createdb:
 #  recipe to execute (from 'Makefile', line 4):
 	docker exec -it postgres14 createdb --username=root --owner=root bank
 
-.PHONY: postgres createdb dropdb migrateup migratedown test
+.PHONY: postgres createdb dropdb migrateup migratedown test server ock
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=11/1024=1%, Rehash=0, Collisions=0/27=0%
+# Load=14/1024=1%, Rehash=0, Collisions=1/32=3%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 180 B / avg = 7 B
-# current buf: size = 8174 B / used = 180 B / count = 25 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 204 B / avg = 7 B
+# current buf: size = 8174 B / used = 204 B / count = 29 / avg = 7 B
 
-# strcache performance: lookups = 42 / hit rate = 40%
+# strcache performance: lookups = 49 / hit rate = 40%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/42=0%
-# Finished Make data base on Tue Jun 21 14:24:50 2022
+# Load=29/8192=0%, Rehash=0, Collisions=0/49=0%
+# Finished Make data base on Mon Jun 27 15:21:53 2022
 
  
