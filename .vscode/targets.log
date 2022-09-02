@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 27 15:21:53 2022
+# Make data base, printed on Thu Sep 01 22:53:22 2022
 
 # Variables
 
@@ -25,9 +25,7 @@ USERPROFILE = C:\Users\daoxu
 # environment
 LOCALAPPDATA = C:\Users\daoxu\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-de2e3d2f-bc52-484a-ab39-1b679bcbf45b-sock
-# environment
-VSCODE_CWD = D:\bank
+VSCODE_CWD = C:\Users\daoxu\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -43,7 +41,7 @@ GOPATH = C:\Users\daoxu\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20640_WIQNALIEHREEPQRJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15368_RSPWGHJWLSJYUGGN
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -52,12 +50,10 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
-# environment
-VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\daoxu\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\daoxu\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 GAMEFIRST = C:\Program Files (x86)\ASUS\GameFirst\
 # environment
@@ -76,8 +72,6 @@ MAKEFLAGS = pqrR
 ONEDRIVE = C:\Users\daoxu\OneDrive
 # makefile
 CURDIR := d:/bank
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -99,9 +93,7 @@ MAKEFILE_LIST := Makefile
 # environment
 PT8HOME = C:\Program Files\Cisco Packet Tracer 8.0
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 20640
+VSCODE_PID = 15368
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -133,14 +125,15 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\Go\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.4\bin;C:\msys64\mingw64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\daoxu\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\daoxu\AppData\Local\Microsoft\WindowsApps;C:\Users\daoxu\.dotnet\tools;C:\Users\daoxu\AppData\Roaming\npm;C:\Users\daoxu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\daoxu\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\tools\msys64;C:\msys64\mingw64\bin;C:\Users\daoxu\go\bin
+PATH = C:\Program Files\Go\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.4\bin;C:\msys64\mingw64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\daoxu\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\daoxu\AppData\Local\Microsoft\WindowsApps;C:\Users\daoxu\.dotnet\tools;C:\Users\daoxu\AppData\Roaming\npm;C:\Users\daoxu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\daoxu\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\tools\msys64;C:\msys64\mingw64\bin;C:\Users\daoxu\go\bin;C:\Users\daoxu\OneDrive\Documents\developments\sdks\flutter\bin;C:\Users\daoxu\OneDrive\Documents\developments\sdks\flutter;
 # environment
 COMPUTERNAME = LAPTOP-FI53JF8I
 # default
 MAKEFILES := 
 # automatic
 ^F = $(notdir $^)
-# environment
+# environ 
+ment
 _MSYS2_PREFIX = x86_64
 # environment
 PROMPT = $P$G
@@ -154,8 +147,6 @@ GOROOT = C:\Program Files\Go\
 JAVA_HOME8 = C:\Program Files\Java\jdk1.8.0_202
 # environment
 LOGONSERVER = \\LAPTOP-FI53JF8I
-# environment
-VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = daoxu
 # environment
@@ -211,7 +202,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\daoxu\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\7dbecdb7b4ec53abdcdea6c60b7b35d5-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\7dbecdb7b4ec53abdcdea6c60b7b35d5-1.70.2-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -224,10 +215,6 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -239,7 +226,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=10/140=7%
+# Load=106/1024=10%, Rehash=0, Collisions=9/133=7%
 
 # Pattern-specific Variable Values
 
@@ -247,9 +234,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (key d:/bank, mtime 1656095409): 16 files, no impossibilities.
+# . (key d:/bank, mtime 1656825908): 21 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -268,13 +255,13 @@ migratedown:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 10):
+#  recipe to execute (from 'Makefile', line 12):
 	migrate -path db/migration -database "postgresql://root:123456@localhost:5432/bank?sslmode=disable" -verbose down
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-25 01:30:44
+#  Last modified 2022-06-28 01:33:08
 #  File has been updated.
 #  Successfully updated.
 
@@ -282,7 +269,7 @@ mock:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 16):
+#  recipe to execute (from 'Makefile', line 20):
 	mockgen -destination db/mock/store.go postgres/db/sql Store
 
 dropdb:
@@ -293,12 +280,20 @@ dropdb:
 #  recipe to execute (from 'Makefile', line 6):
 	docker exec -it postgres14 psql -U root bank
 
-server:
+migratedown1:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 14):
+	migrate -path db/migration -database "postgresql://root:123456@localhost:5432/bank?sslmode=disable" -verbose down 1
+
+server:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 18):
 	go run main.go
 
 migrateup:
@@ -327,12 +322,21 @@ test:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 12):
+#  recipe to execute (from 'Makefile', line 16):
 	go test -v -cover ./...
+
+migrateup1:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	migrate -path db/migration -database "postgresql://root:123456@localhost:5432/bank?sslmode=disable" -verbose up 1
 
 postgres:
 #  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
+#  Implicit rule sea 
+rch has not been done.
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 2):
@@ -346,25 +350,25 @@ createdb:
 #  recipe to execute (from 'Makefile', line 4):
 	docker exec -it postgres14 createdb --username=root --owner=root bank
 
-.PHONY: postgres createdb dropdb migrateup migratedown test server ock
+.PHONY: postgres createdb dropdb migrateup migrateup1 migratedown migratedown1 test server ock
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=14/1024=1%, Rehash=0, Collisions=1/32=3%
+# Load=16/1024=2%, Rehash=0, Collisions=1/36=3%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 29 / storage = 204 B / avg = 7 B
-# current buf: size = 8174 B / used = 204 B / count = 29 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 36 / storage = 286 B / avg = 7 B
+# current buf: size = 8174 B / used = 286 B / count = 36 / avg = 7 B
 
-# strcache performance: lookups = 49 / hit rate = 40%
+# strcache performance: lookups = 60 / hit rate = 40%
 # hash-table stats:
-# Load=29/8192=0%, Rehash=0, Collisions=0/49=0%
-# Finished Make data base on Mon Jun 27 15:21:53 2022
+# Load=36/8192=0%, Rehash=0, Collisions=0/60=0%
+# Finished Make data base on Thu Sep 01 22:53:22 2022
 
  
