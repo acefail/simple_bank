@@ -5,7 +5,9 @@ on:
     branches: ["master"]
     paths-ignore:
       - "tools/**"
-
+permissions:
+      id-token: write   # This is required for requesting the JWT
+      contents: read
 jobs:
   build:
     name: Build image
