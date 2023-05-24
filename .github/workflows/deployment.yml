@@ -7,7 +7,7 @@ on:
       - "tools/**"
 permissions:
       id-token: write   # This is required for requesting the JWT
-      contents: read
+      contents: write   # This is required for github action
 jobs:
   build:
     name: Build image
@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
