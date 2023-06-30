@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 13 01:14:48 2023
+# Make data base, printed on Thu Jun 29 12:55:51 2023
 
 # Variables
 
@@ -49,7 +49,7 @@ GOPATH = C:\Users\daoxu\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_3448_SNBYDUHUXIHCXJSB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_20136_WVQDEXAZSRAGPPWD
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -61,7 +61,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\daoxu\AppData\Roaming\Code\CachedData\b3e4e68a0bc097f0ae7907b217c1119af9e03435
+VSCODE_CODE_CACHE_PATH = C:\Users\daoxu\AppData\Roaming\Code\CachedData\695af097c7bd098fbf017ce3ac85e09bbc5dda06
 # environment
 GAMEFIRST = C:\Program Files (x86)\ASUS\GameFirst\
 # environment
@@ -99,7 +99,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3448
+VSCODE_PID = 20136
 # environment
 CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin
 # automatic
@@ -133,7 +133,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\Go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.4\bin;C:\msys64\mingw64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\daoxu\protoc\bin;C:\Users\daoxu\evans;C:\Python39\Scripts;C:\Program Files\nodejs\;C:\Users\daoxu\AppData\Local\Pub\Cache\bin;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.1\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\daoxu\scoop\shims;C:\Users\daoxu\AppData\Local\Microsoft\WindowsApps;C:\Users\daoxu\.dotnet\tools;C:\Users\daoxu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\daoxu\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\tools\msys64;C:\msys64\mingw64\bin;C:\Users\daoxu\go\bin;C:\Users\daoxu\OneDrive\Documents\developments\sdks\flutter\bin;C:\Users\daoxu\OneDrive\Documents\developments\sdks\flutter;C:\Users\daoxu\AppData\Roaming\npm;C:\ProgramData\daoxu\GitHubDesktop\bin;C:\Users\daoxu\AppData\Local\GitHubDesktop\bin;C:\ghcup\bin
+PATH = C:\Program Files\Go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.4\bin;C:\msys64\mingw64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\daoxu\protoc\bin;C:\Users\daoxu\evans;C:\Python39\Scripts;C:\Program Files\nodejs\;C:\Users\daoxu\AppData\Local\Pub\Cache\bin;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.1\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\daoxu\scoop\shims;C:\Users\daoxu\AppData\Local\Microsoft\WindowsApps;C:\Users\daoxu\.dotnet\tools;C:\Users\daoxu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\daoxu\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\tools\msys64;C:\msys64\mingw64\bin;C:\Users\daoxu\OneDrive\Documents\developments\sdks\flutter\bin;C:\Users\daoxu\OneDrive\Documents\developments\sdks\flutter;C:\Users\daoxu\AppData\Roaming\npm;C:\ProgramData\daoxu\GitHubDesktop\bin;C:\Users\daoxu\AppData\Local\GitHubDesktop\bin;C:\ghcup\bin;C:\Users\daoxu\go\bin
 # environment
 COMPUTERNAME = LAPTOP-FI53JF8I
 # default
@@ -209,6 +209,8 @@ GOMODCACHE = C:\Users\daoxu\go\pkg\mod
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
+HOME = C:\Users\daoxu
+# environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 MSMPI_INC = C:\Program Files (x86)\Microsoft SDKs\MPI\Include\
@@ -217,15 +219,13 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\daoxu\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\7dbecdb7b4ec53abdcdea6c60b7b35d5-1.78.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\7dbecdb7b4ec53abdcdea6c60b7b35d5-1.79.2-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
-# environment
-VSCODE_CRASH_REPORTER_SANDBOXED_HINT = 1
 # default
 SUFFIXES := 
 # environment
@@ -257,9 +257,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (key d:/bank, mtime 1662783364): 27 files, no impossibilities.
+# . (key d:/bank, mtime 1687519702): 28 files, no impossibilities.
 
-# 27 files, no impossibilities in 1 directories.
+# 28 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -423,12 +423,12 @@ createdb:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 45 / storage = 353 B / avg = 7 B
-# current buf: size = 8174 B / used = 353 B / count = 45 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 46 / storage = 357 B / avg = 7 B
+# current buf: size = 8174 B / used = 357 B / count = 46 / avg = 7 B
 
-# strcache performance: lookups = 80 / hit rate = 43%
+# strcache performance: lookups = 81 / hit rate = 43%
 # hash-table stats:
-# Load=45/8192=1%, Rehash=0, Collisions=0/80=0%
-# Finished Make data base on Tue Jun 13 01:14:48 2023
+# Load=46/8192=1%, Rehash=0, Collisions=0/81=0%
+# Finished Make data base on Thu Jun 29 12:55:51 2023
 
  
